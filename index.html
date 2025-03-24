@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avenue Pizza - Home</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="assests/css/styles.css"> 
+</head>
+
+<body>
+    <header>
+        <nav>          
+            <h1 class="brand">
+                Avenue <span>Pizza</span>
+            </h1>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="deals.html">Deals</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero home-hero">
+            <div class="hero-content">
+
+                <h1>Delicious <span>Pizza</span>, Fresh <span>Ingredients</span>, <br> Great <span>Taste </span>!</h1>
+                <button class="view-menu">
+                    <a href="menu.html">View Menu</a>
+                </button>
+            </div>
+        </section>
+        <section class="home-body">
+            <h2>Welcome to <span>Avenue Pizza</span></h2>
+            <div class="home-body-inner">
+                <p>
+                    At <strong>Avenue Pizza</strong>, we take pride in crafting mouthwatering, handcrafted pizzas using
+                    only the freshest,
+                    high-quality ingredients. Whether you're craving a classic cheese pizza, a loaded meat lover’s
+                    delight, or a gourmet
+                    creation with unique flavors, we have something for everyone. <br><br>
+
+                    Our dough is made fresh daily, our sauces are rich and flavorful, and we use only premium toppings
+                    to ensure every bite
+                    is as delicious as the last. From our signature pizzas to fresh salads, hearty appetizers, and
+                    decadent desserts,
+                    we offer a menu that caters to all tastes. <br><br>
+
+                    Whether you're dining in with family, grabbing a quick takeout, or enjoying doorstep delivery, we’re
+                    committed to
+                    providing an exceptional experience with every order. Our friendly staff and warm ambiance make
+                    Avenue Pizza the
+                    perfect spot for casual meals, celebrations, and late-night cravings. <br><br>
+
+                    Visit us today and experience the perfect blend of fresh ingredients, bold flavors, and a passion
+                    for great pizza!
+                </p>
+                <img src="assests/images/chef.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="f-brand">
+                <img src="assests/images/logo2.png" alt="">
+                <p>The Perfect Blend of Freshness & Flavor <br> Only at Avenue Pizza!</p>
+            </div>
+            <div class="f-contact">
+                <h3>Contact</h3>
+                <p>📞 (555) 123-4567</p>
+                <p>📧 contact@avenuepizza.com</p>
+            </div>
+            <div class="f-address">
+                <h3>
+                    Address
+                </h3>
+                <p>1234 Main Street <br>
+                    New York, NY 10001</p>
+            </div>
+            <div class="f-open">
+                <h3>Opening Hours</h3>
+                <ul>
+                    <li>Mon - Fri : <strong>10 am - 10 pm</strong></li>
+                    <li>Sat - Sun : <strong>08 am - 11 pm</strong></li>
+                </ul>
+
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Avenue Pizza. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>

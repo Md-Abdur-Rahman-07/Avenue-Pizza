@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avenue Pizza - Contact Us</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="assests/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>          
+            <h1 class="brand">
+                Avenue <span>Pizza</span>
+            </h1>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="deals.html">Deals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact">
+        <section class="hero contact-hero">
+            <div class="hero-content">
+                <h1>Contact <span>Us</span></h1>
+            </div>
+        </section>
+
+        <section class="contact-info">
+            <div class="info">
+                <h2>Contact Us</h2>
+                <p>We’d love to hear from you! Reach out to us with any questions, orders, or feedback.</p>
+                <ul>
+                    <li><strong>Address:</strong> 1234 Main Street, New York, NY 10001</li>
+                    <li><strong>Phone:</strong> (555) 123-4567</li>
+                    <li><strong>Email:</strong> contact@avenuepizza.com</li>
+                </ul>
+            </div>
+            <div class="form">
+                <h2>Send Us a Message</h2>
+                <form action="#" method="POST">
+                    <div class="input">
+                        <div class="input-group">
+                            <label for="name">Name:</label><br>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button class="send" type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="map">
+            <h2>Find Us Here</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.676556664312!2d-73.94555182524283!3d40.76913813411772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258c9e1f9a61f%3A0x69b2cf37c4b36c4a!2s1234%20Main%20St%2C%20New%20York%2C%20NY%2010044%2C%20USA!5e0!3m2!1sen!2sbd!4v1742654855951!5m2!1sen!2sbd"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="f-brand">
+                <img src="assests/images/logo2.png" alt="">
+                <p>The Perfect Blend of Freshness & Flavor <br> Only at Avenue Pizza!</p>
+            </div>
+            <div class="f-contact">
+                <h3>Contact</h3>
+                <p>📞 (555) 123-4567</p>
+                <p>📧 contact@avenuepizza.com</p>
+            </div>
+            <div class="f-address">
+                <h3>
+                    Address
+                </h3>
+                <p>1234 Main Street <br>
+                    New York, NY 10001</p>
+            </div>
+            <div class="f-open">
+                <h3>Opening Hours</h3>
+                <ul>
+                    <li>Mon - Fri : <strong>10 am - 10 pm</strong></li>
+                    <li>Sat - Sun : <strong>08 am - 11 pm</strong></li>
+                </ul>
+
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Avenue Pizza. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>

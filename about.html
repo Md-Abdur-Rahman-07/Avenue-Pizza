@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avenue Pizza - About Us</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="assests/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>          
+            <h1 class="brand">
+                Avenue <span>Pizza</span>
+            </h1>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="deals.html">Deals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="about">
+        <section class="hero about-hero">
+            <div class="hero-content">
+                <h1>About <span>Avenue Pizza</span></h1>
+            </div>
+        </section>
+
+        <section class="about-history">
+            <h2>Our History</h2>
+            <p>Founded in 1995, Avenue Pizza started as a small family-owned pizzeria with a passion for crafting
+                authentic, handcrafted pizzas. Over the years, we've grown into a local favorite, known for our
+                commitment to fresh ingredients and time-honored recipes.</p>
+
+            <p>What began as a humble pizza shop with a single oven and a handful of cherished family recipes quickly
+                became a go-to spot for pizza lovers. Word spread about our crispy, hand-tossed crust, signature
+                house-made sauces, and generous toppings, and soon, we had a loyal community of customers coming back
+                for more.</p>
+
+            <p>Through the years, we've expanded our menu to include a variety of specialty pizzas, fresh salads,
+                appetizers, and mouthwatering desserts—while staying true to our original promise of quality and flavor.
+                Despite our growth, we remain dedicated to the same family values that started it all: great food, great
+                service, and a welcoming atmosphere.</p>
+
+            <p>Today, Avenue Pizza is more than just a restaurant; it’s a place where friends and families gather to
+                share delicious meals and create lasting memories. We take pride in our history and look forward to
+                serving our community for many more years to come.</p>
+                <br>
+                <hr>
+        </section>
+       
+
+        <section class="about-special">
+            <h2>What Makes Us Special?</h2>
+            <ul>
+                <li><strong>Hand-tossed dough made fresh daily:</strong> <p>Our expert pizza makers knead, stretch, and toss each dough by hand, ensuring the perfect balance of crispiness and chewiness.</p></li>
+                <li><strong>Locally sourced, high-quality ingredients:</strong> <p>We partner with local farmers and suppliers to bring you the freshest vegetables, premium cheeses, and top-grade meats.</p></li>
+                <li><strong>A menu crafted for everyone:</strong> <p>From classic favorites to gourmet specialties, we offer a variety of options, including gluten-free and vegan choices.</p></li>
+                <li><strong>Community-driven and family-owned:</strong> <p>We've been a staple in the neighborhood for years, supporting local events and giving back to the community.</p></li>
+                <li><strong>More than just pizza:</strong> <p>In addition to our famous pizzas, we serve fresh salads, house-made pasta, and decadent desserts to complete your meal.</p></li>
+            </ul>
+            <br>
+            <hr>
+        </section>
+        
+
+        <section class="about-images">
+            <h2>Our Restaurant</h2>
+            <div class="image-gallery">
+                <img src="assests/images/restaurant2.jpg" alt="Restaurant Interior">
+                <img src="assests/images/chef-k.jpg" alt="Pizza Making">
+                <img class="img-3" src="assests/images/restaurant1.jpg" alt="Outdoor Seating">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="f-brand">
+                <img src="assests/images/logo2.png" alt="">
+                <p>The Perfect Blend of Freshness & Flavor <br> Only at Avenue Pizza!</p>
+            </div>
+            <div class="f-contact">
+                <h3>Contact</h3>
+                <p>📞 (555) 123-4567</p>
+                <p>📧 contact@avenuepizza.com</p>
+            </div>
+            <div class="f-address">
+                <h3>
+                    Address
+                </h3>
+                <p>1234 Main Street <br>
+                    New York, NY 10001</p>
+            </div>
+            <div class="f-open">
+                <h3>Opening Hours</h3>
+                <ul>
+                    <li>Mon - Fri : <strong>10 am - 10 pm</strong></li>
+                    <li>Sat - Sun : <strong>08 am - 11 pm</strong></li>
+                </ul>
+
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Avenue Pizza. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
