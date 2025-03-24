@@ -646,7 +646,9 @@ h2.deal-heading span {
     .footer-bottom {
         justify-content: center;
     }
-
+    .extra-menu hr{
+        margin: 8px 0;
+    }
     .contact-info {
         flex-direction: column;
         width: 85%;
